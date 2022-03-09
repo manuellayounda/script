@@ -17,3 +17,4 @@ sudo systemctl status firewalld
 sudo systemctl enable firewalld
 sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp 
 sudo firewall-cmd --reload
+sudo yum install net-tools -y
